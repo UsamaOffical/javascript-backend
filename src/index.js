@@ -15,10 +15,3 @@ app.get("/", (req, res) => {
     });
   });
 
-// (()=>{
-//   connectDB().then(()=>{
-//     app.listen(PORT, ()=>{
-//       console.log(`server running on this address http://localhost:${PORT}`);
-//     });
-//   });
-// })();
