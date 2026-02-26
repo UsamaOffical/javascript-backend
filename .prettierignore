@@ -1,0 +1,27 @@
+# node modules
+node_modules
+
+# build folders
+dist
+build
+.next
+out
+
+# logs
+*.log
+
+# environment files
+.env
+.env.local
+.env.*.local
+
+# generated files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# coverage
+coverage
+
+# specific file ignore
+src/utils/temp.js
