@@ -9,11 +9,10 @@ app.get("/", (req, res) => {
   res.send("Hello world")
 });
 
-
 connectDB()
 .then(() => {
-    app.listen(process.env.PORT || 8000, () => {
-        console.log(`Server is running at port : ${process.env.PORT}`);
+    app.listen(PORT, () => {
+        console.log(`Server is running at address http://localhost:${PORT}`);
     })
 })
 .catch((err) => {
